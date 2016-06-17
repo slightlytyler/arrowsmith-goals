@@ -1,7 +1,7 @@
 {
-  "name": "arrowsmith-web-starter",
+  "name": "arrowsmith-goals",
   "version": "0.1.0",
-  "description": "Rapid application prototyping for the web.",
+  "description": "A collaborative todo app built using arrowsmith-web-starter and Stamplay.",
   "main": "index.js",
   "engines": {
     "node": ">=4.2.0",
@@ -60,7 +60,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slightlytyler/arrowsmith-web-starter"
+    "url": "git+https://github.com/slightlytyler/arrowsmith-goals"
   },
   "author": "Tyler Martinez <slightlytyler@gmail.com.me> (https://slightlytyler.com)",
   "license": "MIT",

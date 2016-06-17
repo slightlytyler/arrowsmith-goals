@@ -1,6 +1,6 @@
-# Arrowsmith Web Starter
+# Arrowsmith Goals
 
-Rapid application prototyping for the web.
+A collaborative todo app built using arrowsmith-web-starter and Stamplay
 
 ## Dev
 
