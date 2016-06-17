@@ -1,0 +1,50 @@
+.item
+  padding: 1em 1em 0
+  color: #777880
+  background-color: white
+
+  .content
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    padding-bottom: 1em
+    border-bottom: 1px solid #F0EBEC
+
+  .checkbox
+    display: flex
+    margin-right: .75em
+
+    .input
+      display: none
+
+      &:checked + .label
+        background-color: #1EB5F9
+
+        .check
+          opacity: 1
+
+    .label
+      content: ''
+      position: relative
+      display: inline-block
+      width: 1em
+      height: 1em
+      border: 2px solid #1EB5F9
+      border-radius: 50%
+      cursor: pointer
+
+      .check
+        position: absolute
+        left: 50%
+        top: 50%
+        width: .6em
+        transform: translate(-50%, -50%)
+        opacity: 0
+
+  .delete
+    margin-left: auto
+    color: #F0EBEC
+    cursor: pointer
+
+    &:hover
+      color: #F07366

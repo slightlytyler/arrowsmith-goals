@@ -1,0 +1,52 @@
+.filters
+  position: relative
+  font-size: .5em
+  color: #acaeb4
+  background-color: white
+  border-bottom: 1px solid #f0ebec
+
+  &, .container
+    display: flex
+    justify-content: flex-start
+    align-items: center
+
+  .container
+    flex: 1
+    padding-top: 1em
+    padding-bottom: 1em
+    margin: 0 1rem
+
+  .list
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+
+    .item
+      padding: .25em .5em
+      border: 1px solid #acaeb4
+      border-radius: 3px
+      cursor: pointer
+
+      &:hover, &.active
+        border-color: #1EB5F9
+
+      &:not(:last-child)
+        margin-right: 1em
+
+  .pagination
+    margin-left: auto
+    font-size: 3em
+    line-height: 1em
+
+    .item
+      cursor: pointer
+
+      &:hover
+        color: #1EB5F9
+
+      &:first-child
+        margin-right: .5em
+
+  .remaining-count.complete
+    color: #1EB5F9

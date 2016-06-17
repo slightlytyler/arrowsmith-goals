@@ -1,0 +1,77 @@
+.header
+  display: flex;
+  justify-content: space-between
+  align-items: center
+  width: calc(100vw - 10em)
+  margin-top: 1em
+
+.logo
+  width: 5em
+  cursor: pointer
+
+.button
+  flex: 1
+  padding: .25rem .5rem
+  font-size: .75rem
+  text-align: center
+  line-height: 1
+  white-space: nowrap
+  color: white
+  background-color: transparent
+  border: 2px solid currentColor
+  border-radius: 3px
+  cursor: pointer
+
+  &:not(:last-child)
+    margin-right: .5em
+
+  &:hover
+    background-color: rgba(white, .15)
+
+.auth-section
+  position: relative
+
+  .content
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    width: 10em
+    color: white
+    cursor: pointer
+
+  .menu
+    position: absolute
+    display: flex
+    flex-direction: column
+    left: 0
+    top: 100%
+    width: 100%
+    padding: .5em 1em
+    margin-top: .5em
+    font-size: .75em
+    color: #777880
+    background-color: white
+    border-bottom-left-radius: 3px
+    border-bottom-right-radius: 3px
+    cursor: default
+
+    .option
+      margin-bottom: .5em
+      cursor: pointer
+
+      &:hover
+        color: #1EB5F9
+
+
+.avatar
+  width: 1.5em
+  margin-right: .25rem
+  border-radius: 3px
+
+.name
+  margin-right: .25rem
+  font-size: .75em
+  line-height: 1
+
+.caret
+  font-size: .5em

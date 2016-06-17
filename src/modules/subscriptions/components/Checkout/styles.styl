@@ -1,0 +1,40 @@
+.form-container
+  margin: auto auto
+
+  & > form
+    display: flex
+    flex-direction: column
+
+.section
+  margin-bottom: 1em
+
+.row
+  display: flex;
+
+  &:not(:last-child)
+    margin-bottom: .5em
+
+  & > *
+    flex: 1
+
+    &:not(:last-child)
+      margin-right: 1em
+
+.header
+  margin-bottom: .5em
+  font-size: .75em
+  color: white
+
+.button
+  padding: .5em
+  font-size: 1em
+  color: #1EB5F9
+  background-color: white
+  border-width: 0
+  border-radius: 3px
+  outline: none
+  cursor: pointer
+
+  &:active
+    color: white
+    background-color: #1EB5F9

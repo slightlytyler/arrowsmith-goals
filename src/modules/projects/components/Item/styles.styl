@@ -1,0 +1,51 @@
+.item
+  display: flex
+  justify-content: flex-end
+  align-items: center
+  color: #acaeb4
+  border-bottom: 1px solid #f0ebec
+
+  .name:hover
+    color: #777880
+
+.item--active
+  composes: item
+  color: #1EB5F9
+
+  .name
+    cursor: default
+
+    &:hover
+      color: #1EB5F9
+
+.item--update
+  composes: item
+
+.name, .input
+  flex: 1
+  padding: 1em 0
+  font-size: 1em
+
+.name
+  cursor: pointer
+
+.input
+  min-width: 0
+  color: #acaeb4
+  border: 0
+  outline: none
+
+.delete
+  margin-right: .25em
+  color: #F0EBEC
+  cursor: pointer
+
+  &:hover
+    color: #F07366
+
+.edit
+  color: #F0EBEC
+  cursor: pointer
+
+  &:hover
+    color: #1EB5F9

@@ -1,0 +1,39 @@
+.creator
+  cursor: pointer
+
+.creator--editing
+  compose: creator
+  cursor: default
+
+.content
+  position: relative
+  display: flex
+  align-items: center
+  padding: 1em
+  color: black
+  border-bottom: 1px solid #F0EBEC
+
+.prompt, .input
+  flex: 1
+  height: 100%
+  font-size: 1em
+  color: #ACAEB4
+
+.input
+  background-color: transparent
+  border-width: 0
+
+  &:focus
+    outline: none
+
+.add--icon
+  cursor: pointer
+  margin-right: .5em
+
+.add--button
+  font-weight: bold
+  color: #ACAEB4
+  cursor: pointer
+
+  &:hover, &:active
+    color: #1EB5F9

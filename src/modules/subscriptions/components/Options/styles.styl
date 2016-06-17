@@ -1,0 +1,52 @@
+.options
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+
+  width: calc(100vw - 10em)
+
+.option
+  display: flex
+  flex-direction: column
+  background-color: white
+  padding: 1em
+  border-radius: 3px
+
+  &:not(:last-child)
+    margin-right: 1em
+
+.header
+  width: 100%
+  padding-bottom: 1em
+  font-size: 1.25em
+  text-align: center
+
+.header--highlight
+  composes: header
+  color: #1eb5f9
+
+.content
+  width: 100%
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  flex: 1
+
+  & > *:not(:last-child)
+    margin-bottom: 1rem
+
+.price
+  font-weight: bold
+
+.tag-line
+  padding: 0 2em
+  font-size: .5em
+  text-align: center
+
+.button
+  background-color: white
+
+.button--highlight
+  color: white
+  background-color: #1eb5f9

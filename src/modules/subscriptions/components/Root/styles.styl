@@ -1,0 +1,41 @@
+.container
+  display: flex
+  flex-direction: column
+  width: 100%
+  padding: .5em
+  background-color: white
+  border-radius: 3px
+
+.header
+  display: flex
+  justify-content: space-between
+  margin-bottom: 1rem
+  font-size: .75em
+
+.status
+  font-weight: bold
+  text-transform: uppercase
+
+.status--active
+  composes: status
+  color: #5BD4B9
+
+.content
+  .row
+    display: flex
+    flex-direction: column
+
+    &:not(:last-child)
+      margin-bottom: 1rem
+
+    .label
+      font-size: .5em
+      font-weight: bold
+      text-transform: uppercase
+
+    .value
+      color: black
+
+.footer
+  margin-top: 1rem
+  font-size: .5em

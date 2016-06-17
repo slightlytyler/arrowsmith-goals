@@ -1,0 +1,43 @@
+@import './shared/_colors';
+@import './shared/_breakpoints';
+
+:global
+  *
+    box-sizing: border-box
+    -webkit-font-smoothing: antialiased
+    font-family: 'Lato', sans-serif !important
+
+  html
+    font-size: 2vw
+    color: #777880
+    background: linear-gradient(to bottom, #1EB5F9, darken(#1EB5F9, 10))
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  body
+    margin: 0
+
+  p
+    line-height: 2
+
+  ul
+    list-style: none
+    padding: 0
+    margin: 0
+
+  a
+    color: currentColor
+    text-decoration: none
+
+  button, .button
+    padding: .5em 1em
+    font-size: .75em
+    color: currentColor
+    background-color: transparent
+    border: 1px solid currentColor
+    border-radius: 3px
+    outline: none
+    cursor: pointer
+
+    &:active
+      opacity: .85
